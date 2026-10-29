@@ -1,0 +1,19 @@
+{
+  "name": "bankguard-ai-workspace",
+  "version": "1.0.0",
+  "description": "BankGuard AI - Educational Banking Security Assistant (Pause. Check. Protect.)",
+  "scripts": {
+    "dev": "cd BankGuard-AI && py -m streamlit run app.py --server.port 8501",
+    "start": "cd BankGuard-AI && py -m streamlit run app.py --server.port 8501",
+    "test": "cd BankGuard-AI && py test_rules.py"
+  },
+  "keywords": [
+    "streamlit",
+    "security",
+    "banking",
+    "ai"
+  ],
+  "author": "BankGuard Team",
+  "license": "Apache-2.0"
+}
+
